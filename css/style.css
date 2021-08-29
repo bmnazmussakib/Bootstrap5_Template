@@ -1,0 +1,30 @@
+.header,.hero,.body,.footer, .bar{
+    background-color: rgb(25, 109, 143);
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.box{
+    margin: 10px 0;
+    background-color: rgb(235, 17, 235);
+    min-height: 80px;
+    color: aliceblue;
+}
+
+.red{
+    margin: 10px 0;
+    background-color: rgb(235, 17, 17);
+    min-height: 80px;
+    color: aliceblue;
+}
+
+.blue{
+    margin: 10px 0;
+    background-color: rgb(50, 17, 235);
+    min-height: 80px;
+    color: aliceblue;
+}
+
+section{
+    margin-bottom: 10px;
+}
