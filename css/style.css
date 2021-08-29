@@ -1,30 +1,161 @@
-.header,.hero,.body,.footer, .bar{
-    background-color: rgb(25, 109, 143);
-    font-size: 2.5em;
+/* Common start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:#242f51 !important;
+}
+/* section{
+    margin-bottom: 50px;
+} */
+/* Common end */
+
+/* Header start */
+header{
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    background-image: none;
+    transition: none 0s ease 0s;
+    padding: 10px 0;
+}
+.nav-bg{
+    
+}
+.logo {
+    
+}
+.logo img{
+    width: 8%;
+}
+.navmenu {
+    
+}
+.navmenu li{
+    
+}
+.navmenu li a{
+    font-weight: 500;
+    font-size: 17px !important;
+    color: #121213;
+}
+.try-free{
+    border-radius: 50px !important;
+    background-color: #2500F9 !important;
+    color: white !important;
+    padding: 0.6rem 2rem !important;
+}
+/* Header end */
+
+
+/* Banner start */
+.banner{
+    background-image: url(/img/illustrations/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    padding: 50px 0 80px 0;
+}
+.banner-content{
+    /* margin-top: 150px; */
+}
+.badge-color{
+    background-color: #E2EAED !important;
+    color: #1F1534 !important;
+}
+
+.badge img{
+    margin-left: -4px !important;
+}
+
+.banner-img img{
+    width: 350px;
+}
+
+.badge-text {
+    
+}
+.badge-text p{
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 0 1.3em 0 1em;
+    display: inline;
+}
+
+.banner-title{
+    
+}
+.banner-title h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 3.4rem
+}
+.banner-text{
+    /* width: 70%; */
+}
+.banner-text p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+.banner-link{
+    font-size: 1.3rem;
+}
+.banner-link a{
+    text-decoration: none;
+}
+.watch-demo{
+    font-size: 1.1rem !important;
+    color: #2500F9;
+}
+/* Banner end */
+
+
+/* Trusted company start */
+
+.company-title{
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
 }
+.company-content ul{}
 
-.box{
-    margin: 10px 0;
-    background-color: rgb(235, 17, 235);
-    min-height: 80px;
-    color: aliceblue;
+.company-content ul li{
+    list-style-type: none;
 }
 
-.red{
-    margin: 10px 0;
-    background-color: rgb(235, 17, 17);
-    min-height: 80px;
-    color: aliceblue;
-}
+.company-content ul li img{}
+/* Trusted company end */
 
-.blue{
-    margin: 10px 0;
-    background-color: rgb(50, 17, 235);
-    min-height: 80px;
-    color: aliceblue;
-}
 
-section{
-    margin-bottom: 10px;
+/* Awesome app start */
+.awsome-app{
+    margin-top: 100px;
 }
+.awesome-content{}
+.awesome-content h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.awesome-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A6C71;
+}
+.awesome-feature{
+    
+}
+.awesome-feature h5{
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+}
+/* Awesome app end */
+
+/* Jackpot start */
+.jackpot-text p{
+    
+}
+.jackpot-title h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+/* Jackpot end */

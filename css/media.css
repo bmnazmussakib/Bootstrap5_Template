@@ -1,32 +1,279 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    header{
+        background-color: white !important;
+    }
+    .navbar-collapse ul{
+        border-top: 1px solid lightgray !important;
+        margin-top: 25px;
+        padding: 5px 0;
+    }
+    .banner-content{
+        margin-top: 30px;
+    }
+    .badges{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-title h1{
+        font-size: 2rem;
+        line-height: 2.3rem;
+        text-align: center;
+    }
+    .banner-text{
+        
+    }
+    .banner-text p{
+        font-size: 1.2rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-link{
+        display: flex;
+        justify-content: center;
+    }
+    .watch-demo{
+        font-size: 0.8rem !important;
+        color: #2500F9;
+    }
+    .try-free{
+        background-color: #2500F9 !important;
+        color: white !important;
+        padding: 0.6rem 2rem !important;
+        font-size: 0.8rem;
+    }
 
+    /* Company list start */
+    .company-list{
+        margin-top: 40px;
+    }
+    .company-name{
+        margin-top: 20px;
+    }
+    /* Company list end */
+
+
+    /* Jackpot start */
+    .jackpot-title {
+        margin-top: 20px;
+    }
+    .jackpot-title h2{
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+    .jackpot-text {
+        margin-top: 20px;
+    }
+    .jackpot-text p{
+        margin-top: 20px;
+    }
+    /* Jackpot end */
+
+
+    /* Fast performance start */
+    .fast-performance-feature{
+        margin-top: 40px !important;
+    }
+    /* Fast performance end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    header{
+        background-color: white !important;
+    }
+    .navbar-collapse ul{
+        border-top: 1px solid lightgray !important;
+        margin-top: 25px;
+        padding: 5px 0;
+    }
+    .banner-content{
+        margin-top: 30px;
+    }
+    .badges{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-title h1{
+        font-size: 2rem;
+        line-height: 2.3rem;
+        text-align: center;
+    }
+    .banner-text{
+        
+    }
+    .banner-text p{
+        font-size: 1.2rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-link{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Company list start */
+    .company-list{
+        margin-top: 40px;
+    }
+    .company-name{
+        margin-top: 20px;
+    }
+    /* Company list end */
+
+
+    /* Jackpot start */
+    .jackpot-title {
+        margin-top: 20px;
+    }
+    .jackpot-title h2{
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+    .jackpot-text {
+        margin-top: 20px;
+    }
+    .jackpot-text p{
+        
+    }
+    /* Jackpot end */
     
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+        background-color: white !important;
+    }
+    .navbar-collapse ul{
+        border-top: 1px solid lightgray !important;
+        margin-top: 25px;
+        padding: 5px 0;
+    }
+    .banner-content{
+        margin-top: 150px;
+    }
+
+    /* Company list start */
+    .company-list{
+        margin-top: 50px;
+    }
+    .company-name{
+        margin-top: 50px;
+    }
+    /* Company list end */
+
+    /* Awesome app start */
+    .awesome-img{
+        align-self: center;
+    }
+    .awesome-img div img{
+        width: 100% !important;
+    }
+    /* Awesome app end */
+
+    /* Jackpot start */
+    .jackpot-title h2{
+        font-size: 2rem;
+        width: 80%;
+        line-height: 3rem;
+    }
+    .jackpot-text p{
+        border-left: 1px solid lightgrey;
+        padding: 50px 0 50px 40px;
+    }
+    /* Jackpot end */
     
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+    a.try-free-btn{
+        margin-left: 50px;
+    } 
+    .banner-content{
+        margin-top: 150px;
+    }
+
+    /* Company list start */
+    .company-list{
+        margin-top: 100px;
+    }
+    .company-name{
+        margin-top: 50px;
+    }
+    /* Company list end */
+
+    /* Jackpot start */
+    .jackpot-title h2{
+        width: 70%;
+        line-height: 3.6rem;
+    }
+    .jackpot-text p{
+        border-left: 1px solid lightgrey;
+        padding: 50px 0 50px 40px;
+    }
+    /* Jackpot end */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    
+    a.try-free-btn{
+        margin-left: 50px;
+    } 
+    .banner-content{
+        margin-top: 150px;
+    }
+
+    /* Company list start */
+    .company-list{
+        margin-top: 100px;
+    }
+    .company-name{
+        margin-top: 50px;
+    }
+    /* Company list end */
+
+    /* Jackpot start */
+    .jackpot-title h2{
+        width: 70%;
+        line-height: 3.6rem;
+    }
+    .jackpot-text p{
+        border-left: 1px solid lightgrey;
+        padding: 50px 0 50px 40px;
+        margin-left: 30px;
+    }
+    /* Jackpot end */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    .testimonials blockquote {
-        border: 0;
-        margin: 50px;
+    a.try-free-btn{
+        margin-left: 50px;
+    } 
+    .banner-content{
+        margin-top: 150px;
     }
+    /* Company list start */
+    .company-list{
+        margin-top: 100px;
+    }
+    .company-name{
+        margin-top: 50px;
+    }
+    /* Company list end */
+
+    /* Jackpot start */
+    .jackpot-title h2{
+        width: 70%;
+        line-height: 3.6rem;
+    }
+    .jackpot-text p{
+        border-left: 1px solid lightgrey;
+        padding: 50px 0 50px 40px;
+    }
+    /* Jackpot end */
 }

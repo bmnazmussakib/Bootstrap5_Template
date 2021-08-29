@@ -9,94 +9,249 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="/css/media.css">
+
+    <!-- Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
 
-    <title>Bootstrap Grid</title>
+    <title>App Lab</title>
   </head>
-    <section class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-sm-3">
-            <div class="box">1.1</div>
-          </div>
-          <div class="col-md-7 col-sm-6 col-7">
-            <div class="box">1.2</div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-5">
-            <div class="box">1.3</div>
+  
+<body>
+  <!-- Header start -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="img-fluid" src="./img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navmenu">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Key Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn try-free try-free-btn" href="#">Try for free</a>
+              </li>
+            </ul>
+            
           </div>
         </div>
-      </div>
-    </section>
+      </nav>
+    </div>
+  </header>
+  <!-- Header end -->
 
-    <section class="hero">
-      <div class="container">
+
+    <!-- Banner start -->
+    <section class="banner">
+    <div class="container">
+    
         <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-8 d-sm-block d-none">
-                <div class="box">2.1</div>
-              </div>
-              <div class="col-md-4">
-                <div class="box">2.2</div>
-              </div>
+
+          <div class="d-block d-md-none d-flex justify-content-center">
+            <div class="banner-img top-banner-img">
+              <img class="img-fluid" src="./img/illustrations/mobile.png" alt="">
             </div>
           </div>
-          <div class="col-md-3 d-md-block d-none">
-            <div class="red">3</div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="body">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-4 col-sm-9">
-                <div class="box">4.1</div>
-              </div>
-              <div class="col-sm-3 d-md-none d-block">
-                <div class="red">3</div>
-              </div>
-              <div class="col-md-8 col-sm-12">
-                <div class="box">4.2</div>
-              </div>
+          <div class=" col-md-8">
+                <div class="banner-content">
+                  <div class="badges mb-2">
+                    <span class="badge rounded-pill badge-color">
+                      <img src="./img/illustrations/arrow-right.png" alt="">
+                      <span class="badge-text"><p>#1 Editiors Choice App of 2020</p></span>
+                    </span>
+                  </div>
+                  <div class="banner-title mb-4">
+                    <h1>Best app for your <br> modern lifestyle</h1>
+                  </div>
+                  <div class="banner-text mb-4">
+                    <p>Increase productivity with a simple to-do app. app for managing your personal budgets.</p>
+                  </div>
+                  <div class="banner-link">
+                    <a href="" class="btn btn-info try-free">Try for free</a>
+                    <a href="" class="btn btn-link watch-demo ms-3">Watch demo here</a>
+                  </div>
+                </div>
+          </div>
+
+          <div class=" col-md-4 d-md-block d-none">
+            <div class="banner-img">
+              <img class="img-fluid" src="./img/illustrations/mobile.png" alt="">
             </div>
           </div>
-          <div class="col-md-3 d-md-block d-none">
-            <div class="blue">5</div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="footer">
+        </div>
+  </div>
+    </section>
+    <!-- Banner end -->
+
+
+    <!-- Trusted company start -->
+    <section class="company-list">
       <div class="container">
+        <div class="company-content">
+          <p class="company-title">Trusted by companies like</p>
+          <div class="row company-name">
+            <div class="col"><img class="img-fluid" src="./img/gallery/company-1.png" alt=""></div>
+            <div class="col"><img class="img-fluid" src="./img/gallery/company-2.png" alt=""></div>
+            <div class="col"><img class="img-fluid" src="./img/gallery/company-3.png" alt=""></div>
+            <div class="col"><img class="img-fluid" src="./img/gallery/company-4.png" alt=""></div>
+            <div class="col align-self-center"><img class="img-fluid" src="./img/gallery/company-5.png" alt=""></div>
+          <!-- <ul class="d-flex justify-content-between mt-5">
+            <li><img class="img-fluid" src="./img/gallery/company-1.png" alt=""></li>
+            <li><img class="img-fluid" src="./img/gallery/company-2.png" alt=""></li>
+            <li><img class="img-fluid" src="./img/gallery/company-3.png" alt=""></li>
+            <li><img class="img-fluid" src="./img/gallery/company-4.png" alt=""></li>
+            <li><img class="img-fluid" src="./img/gallery/company-5.png" alt=""></li>
+          </ul> -->
+        </div>
+      </div>
+    </section>
+    <!-- Trusted company end -->
+
+
+    <!-- Awesome app start -->
+    <section class="awsome-app mb-5">
+      <div class="container" style="width: 90%; margin: 0 auto;">
         <div class="row">
-          <div class="col-md-12">
-            <div class="box">6</div>
+          <div class="col-lg-6 col-md-5 awesome-img">
+            <div class=""><img class="img-fluid" src="./img/illustrations/feature-bg.png" alt=""></div>
+          </div>
+          <div class="col-lg-6 col-md-7">
+            <div class="awesome-content">
+              <h2>Awesome apps <br> features</h2>
+              <p class="mt-4 ">Increase productivity with a simple to-do app. app for managing your personal budgets.</p>
+
+                  <div class="row d-flex justify-content-start mt-5">
+                    <div class="col-3 align-self-center"><img class="img-fluid" src="./img/illustrations/fast-performance.png" alt=""></div>
+                    <div class="col-7 awesome-feature">
+                      <h5 style="color: #F55767;">Fast performance</h5>
+                      <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-start mt-4">
+                  <div class="col-3 align-self-center"><img class="img-fluid" src="./img/illustrations/prototype.png" alt=""></div>
+                  <div class="col-7 awesome-feature">
+                    <h5 style="color: #2500F9;">Prototyping</h5>
+                    <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
+                  </div>
+              </div>
+
+              <div class="row d-flex justify-content-start mt-4">
+                <div class="col-3 align-self-center"><img class="img-fluid" src="./img/illustrations/vector.png" alt=""></div>
+                <div class="col-7 awesome-feature">
+                  <h5 style="color: #40975F;">Vector Editing</h5>
+                  <p>Get your blood tests delivered at <br> home collect a sample from the <br> news your blood tests.</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Awesome app end -->
 
-    <section class="bar d-md-none d-sm-block d-none">
-      <div class="container">
+
+    <!-- Smart jackpot start -->
+    <section class="jacpot mt-5 mb-5">
+      <div class="container"  style="width: 85%; margin: 0 auto;">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="blue">5</div>
+          <div class="col-md-6 jackpot-title">
+            <h2>Smart jackpots that you may love this anytime & anywhere</h2>
+          </div>
+          <div class="col-md-6 jackpot-text align-self-center">
+            <p class="">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
           </div>
         </div>
       </div>
     </section>
+    <!-- Smart jackpot end -->
 
 
+    <!-- Fast performance start-->
+    <section class="fast-performance mt-5">
+      <div class="container" style="width: 85%; margin: 0 auto;">
+        <div class="row">
+          <div class="col-md-4 fast-performance-feature">
+            <div class="performance-img mb-4"><img src="./img/illustrations/automatic.png" alt=""></div>
+            <div class="awesome-feature">
+              <h5 style="color: #F55767;">Fast performance</h5>
+              <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
+            </div>
+          </div>
+          <div class="col-md-4 fast-performance-feature">
+            <div class="performance-img mb-4"><img src="./img/illustrations/network.png" alt=""></div>
+            <div class="awesome-feature">
+              <h5 style="color: #2500F9;">Prototyping</h5>
+              <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
+            </div>
+          </div>
+          <div class="col-md-4 fast-performance-feature">
+            <div class="performance-img mb-4"><img src="./img/illustrations/rewards.png" alt=""></div>
+            <div class="awesome-feature">
+              <h5 style="color: #40975F;">Vector Editing</h5>
+              <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fast performance end-->
 
 
+    <!-- Automatic payout start -->
+    <!-- Automatic payout end -->
 
 
+    <!-- Design&Built start -->
+    <!-- Design&Built end -->
+
+    <!-- Why choose start -->
+    <!-- Why choose end -->
+
+
+    <!-- Unlimited feature start -->
+    <!-- Unlimited feature end -->
+
+
+    <!-- Awesome feature start -->
+    <!-- Awesome feature end -->
+    
+
+    <!-- Meet client start -->
+    <!-- Meet client end -->
+
+
+    <!-- Frequent question start -->
+    <!-- Frequent question end -->
+
+
+    <!-- Download app start -->
+    <!-- Download app end -->
+
+
+    <!-- Footer start -->
+    <!-- Footer end -->
+  
+  
 
     <!-- JS Links -->
     <script src="./js/popper.min.js"></script>
