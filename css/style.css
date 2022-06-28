@@ -4,9 +4,9 @@ body{
     font-size: 16px;
     color:#242f51 !important;
 }
-/* section{
-    margin-bottom: 50px;
-} */
+section{
+    margin-bottom: 100px;;
+}
 /* Common end */
 
 /* Header start */
@@ -151,11 +151,232 @@ header{
 /* Awesome app end */
 
 /* Jackpot start */
-.jackpot-text p{
-    
-}
 .jackpot-title h2{
     font-size: 2.7rem;
     font-weight: 700;
 }
+.jackpot-text p{
+
+}
 /* Jackpot end */
+
+
+/* Design&Built start */
+.design-content h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.design-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A6C71;
+}
+/* Design&Built end */
+
+
+/* Why choose start */
+.why-choose-content{}
+
+.why-choose-content h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+
+.why-choose-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+
+.why-choose-featuers{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.single-feature{}
+
+.why-feature-img{}
+
+.why-feature-content{}
+
+.why-feature-content h5{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.why-feature-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+/* Why choose end */
+
+
+/* Unlimited feature start */
+.unlimited-feature-content{}
+
+.unlimited-feature-content h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+
+.unlimited-feature-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+
+.unlimited-singe-text h5{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.unlimited-singe-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+/* Unlimited feature end */
+
+
+/* Awesome Charge start */
+
+.awesome-charge-content h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+
+.awesome-charge-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+
+.price-list{
+    text-align: center;
+}
+.price-list ul{}
+.price-list li{
+    list-style: none;
+}
+
+.price-card{
+    transition: 0.5s;
+}
+.price-card:hover{
+    transform: scale(1.05);
+}
+.package-name{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Awesome Charge end */
+
+
+/* Testimonial start */
+.testimonial-title h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.testimonial-title p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+
+.single-testimonial h5{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+/* Testimonial end */
+
+
+/* Frequent question start */
+.question{
+    padding-bottom: 200px;
+    border-bottom: 1px solid lightgray;
+}
+.question-content h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+
+.question-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6A6C71;
+}
+
+.accordion-list {
+    transition: 2s;
+  }
+
+  .accordion-list-item{
+    background-color: #F5F7FA;
+  }
+
+  .accordion-title {
+    font-weight: 700;
+    padding: 20px 40px;
+}
+
+  .accordion-title-border {
+    border-bottom: 1px solid white;
+}
+  
+  .accordion-desc {
+    font-size: 1.15rem;
+    font-weight: 400;
+    background-color: #F5F7FA;
+    padding: 20px 40px;
+
+  }
+
+  .minus{
+      font-size: 1.3rem;
+      font-weight: 600;
+  }
+  .minus-rotate{
+      transform: rotate(180deg);
+  }
+
+/* Frequent question end */
+
+
+/* Download app start */
+.download-app{
+    margin-bottom: 0 !important;
+}
+.download-content{}
+.download-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.download-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.download-img img{
+    z-index: 1;
+    position: relative;
+    margin-bottom: -30px;
+}
+/* Download app end */
+
+
+/* Footer start */
+footer{
+    padding: 150px 0;
+    position: relative;
+    background-color: #242F51;
+}
+/* Footer end */

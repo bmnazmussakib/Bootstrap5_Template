@@ -76,6 +76,162 @@
         margin-top: 40px !important;
     }
     /* Fast performance end */
+
+
+    /* Design&Built start */
+    .design-content{
+        margin-top: 50px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .design-content h2{
+        
+        font-size: 1.8rem;
+        text-align: center;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .design-content p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    /* Design&Built end */
+
+    /* Why choose start */
+    .why-choose-content h2{
+        font-size: 2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .why-choose-content p{
+        font-size: 1.1rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .single-feature{
+        margin-top: 80px;
+    }
+
+    .why-feature-content{}
+
+    .why-feature-content h5{}
+
+    .why-feature-content p{
+        font-size: 1rem;
+        width: 75%;
+        margin: 0 auto;
+    }
+    /* Why choose end */
+
+    /* Unlimited feature start */
+    .unlimited-feature-content{
+        margin: 30px 0 50px 0;
+    }
+
+    .unlimited-feature-content h2{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .unlimited-feature-content p{
+        font-size: 1.1rem;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .unlimited-singe-content {
+        margin-bottom: 50px !important;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .see-all {
+        display: flex;
+        justify-content: center;
+    }
+    /* Unlimited feature end */
+    
+    /* Awesome charge start */
+
+    .awesome-charge-content h2{
+        font-size: 2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .awesome-charge-content p{
+        font-size: 1.1rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .price-card{
+        margin-top: 30px !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* Awesome charge end */
+
+    /* Testimonial start */
+    .testimonial-title{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .testimonial-title h2{
+        font-size: 2rem;
+    }
+    .testimonial-title p{
+        margin-top: 30px;
+        font-size: 1.1rem;
+    }
+    .testimonial-carousel{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* Testimonial end */
+
+
+    /* Frequent Question start */
+    .question-container{
+        width: 80%;
+    }
+    /* Frequent Question end */
+
+
+    /* Download app start */
+    .download-content{}
+    .download-content h2{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .download-content p{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    .app-store-img{
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    /* Download app end */
+
+
+    /* Footer start */
+    footer{
+        margin-top: 50px;
+    }
+    /* Footer end */
+
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -139,6 +295,79 @@
         
     }
     /* Jackpot end */
+
+    /* Why choose start */
+    .why-choose-content h2{
+        font-size: 2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .why-choose-content p{
+        font-size: 1rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    /* Why choose end */
+    
+    /* Unlimited feature start */
+    .unlimited-feature-content{}
+
+    .unlimited-feature-content h2{
+        font-size: 1rem;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .unlimited-feature-content p{
+        
+    }
+
+    .unlimited-singe-content {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .see-all {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    /* Unlimited feature end */
+
+    /* Awesome charge start */
+    .awesome-charge-content h2{
+        font-size: 2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .awesome-charge-content p{
+        font-size: 1rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .price-card{
+        margin-top: 30px !important;
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* Awesome charge end */
+
+    /* Download app start */
+    .download-content{}
+    .download-content h2{
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .download-content p{
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    /* Download app end */
     
 }
 
@@ -185,6 +414,111 @@
         padding: 50px 0 50px 40px;
     }
     /* Jackpot end */
+
+    /* Design&Built start */
+    .design-content h2{
+        font-size: 2.2rem;
+        width: 93%;
+    }
+    /* Design&Built end */
+
+
+    /* Why choose start */
+   
+     .why-choose-content h2{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .why-choose-content p{
+        width: 65%;
+        margin: 0 auto;
+    }
+    .single-feature{}
+
+    .why-feature-img{}
+
+    .why-feature-content{}
+
+    .why-feature-content h5{
+        font-size: 1.1rem;
+    }
+
+    .why-feature-content p{
+        font-size: 1.1rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .second-row{
+        margin-top: 50px !important;
+    }
+    /* Why choose end */
+
+
+    /* Unlimited feature start */
+    .unlimited-feature-content{}
+
+    .unlimited-feature-content h2{
+        width: 50%;
+    }
+
+    .unlimited-feature-content p{
+        width: 47%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #6A6C71;
+    }
+
+    .unlimited-single-feature{
+        margin-top: 40px;
+    }
+
+
+    /* Unlimited feature end */
+
+    /* Awesome charge start */
+
+    .awesome-charge-content h2{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .awesome-charge-content p{
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .price-card{
+        margin-top: 30px !important;
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* Awesome charge end */
+
+
+    /* Frequent Question start */
+    .question-container{
+        width: 70%;
+    }
+    /* Frequent Question end */
+
+
+    /* Download app start */
+    .download-content{}
+    .download-content h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .download-content p{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    /* Download app end */
+
+    /* Footer start */
+    footer{
+        margin-top: 50px;
+    }
+    /* Footer end */
     
 }
 
@@ -216,6 +550,106 @@
         padding: 50px 0 50px 40px;
     }
     /* Jackpot end */
+
+
+    /* Design&Built start */
+    .design-content h2{
+        width: 70%;
+    }
+    /* Design&Built end */
+
+    /* Why choose start */
+    .why-choose-content h2{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .why-choose-content p{
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .single-feature{}
+
+    .why-feature-img{}
+
+    .why-feature-content{}
+
+    .why-feature-content h5{
+        font-size: 1.2rem;
+    }
+
+    .why-feature-content p{
+        font-size: 1rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .second-row{
+        margin-top: 50px !important;
+    }
+    /* Why choose end */
+
+
+    /* Unlimited feature start */
+    .unlimited-feature-content{}
+
+    .unlimited-feature-content h2{
+        width: 35%;
+    }
+
+    .unlimited-feature-content p{
+        width: 60%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #6A6C71;
+    }
+    .unlimited-single-feature{
+        margin-top: 40px;
+    }
+    /* Unlimited feature end */
+
+    /* Awesome charge start */
+    .awesome-charge-content h2{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .awesome-charge-content p{
+        width: 45%;
+        margin: 0 auto;
+    }
+    /* Awesome charge end */
+
+    /* Frequent question start */
+    .question-content h2{
+        
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
+    .question-content p{
+        width: 70%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #6A6C71;
+    }
+    /* Frequent question end */
+
+    .question-container{
+        width: 70%;
+    }
+    /*Frequent Question end */
+
+
+    /* Download app start */
+    .download-content{}
+    .download-content h2{
+        width: 80%;
+    }
+    .download-content p{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    /* Download app end */
+    
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -247,6 +681,99 @@
         margin-left: 30px;
     }
     /* Jackpot end */
+
+    /* Design&Built start */
+    .design-content h2{
+        width: 70%;
+    }
+    /* Design&Built end */
+
+
+    /* Why choose start */
+    .why-choose-content h2{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .why-choose-content p{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .single-feature{}
+
+    .why-feature-img{}
+
+    .why-feature-content{}
+
+    .why-feature-content h5{
+        font-size: 1.4rem;
+    }
+
+    .why-feature-content p{
+        font-size: 1.2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .second-row{
+        margin-top: 50px !important;
+    }
+    /* Why choose end */
+
+
+    /* Unlimited feature start */
+    .unlimited-feature-content{}
+
+    .unlimited-feature-content h2{
+        width: 35%;
+    }
+
+    .unlimited-feature-content p{
+        width: 50%;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #6A6C71;
+    }
+    .unlimited-single-feature{
+        margin-top: 40px;
+    }
+    /* Unlimited feature end */
+
+
+    /* Awesome charge start */
+    .awesome-charge-content h2{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .awesome-charge-content p{
+        width: 45%;
+        margin: 0 auto;
+    }
+    /* Awesome charge end */
+
+
+    /* Frequent question start */
+    .question-content h2{
+        
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
+    .question-content p{
+        width: 65%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #6A6C71;
+    }
+
+    
+    .question-container{
+        width: 65%;
+    }
+    /* Frequent question end */
+
+
+    
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -276,4 +803,102 @@
         padding: 50px 0 50px 40px;
     }
     /* Jackpot end */
+
+
+    /* Design&Built start */
+    .design-content h2{
+        font-size: 2.8rem;
+        width: 70%;
+    }
+    .design-content p{
+        font-size: 1.3rem;
+    }
+    /* Design&Built end */
+
+
+    /* Why choose start */
+    .why-choose-content h2{
+        font-size: 2.8rem;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .why-choose-content p{
+        font-size: 1.3rem;
+        width: 45%;
+        margin: 0 auto;
+    }
+    .single-feature{}
+
+    .why-feature-img{}
+
+    .why-feature-content{}
+
+    .why-feature-content h5{
+        font-size: 1.4rem;
+    }
+
+    .why-feature-content p{
+        font-size: 1.2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .second-row{
+        margin-top: 50px !important;
+    }
+    /* Why choose end */
+
+
+    /* Unlimited feature start */
+    .unlimited-feature-content{}
+
+    .unlimited-feature-content h2{
+        width: 30%;
+        font-size: 2.7rem;
+    }
+
+    .unlimited-feature-content p{
+        width: 50%;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #6A6C71;
+    }
+    .unlimited-single-feature{
+        margin-top: 40px;
+    }
+    /* Unlimited feature end */
+
+    /* Awesome charge start */
+    .awesome-charge-content h2{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .awesome-charge-content p{
+        width: 45%;
+        margin: 0 auto;
+    }
+    /* Awesome charge end */
+
+
+    /* Frequent Question start */
+    .question-container{
+        width: 70%;
+    }
+    /* Frequent Question end */
+
+
+    /* Download app start */
+    .download-content{}
+    .download-content h2{
+        width: 70%;
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+    .download-content p{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    /* Download app end */
+
+    
+    
 }
